@@ -83,7 +83,7 @@ title: Update Spreadsheet
             // Grab the token from cookie
             $oAuthToken = Cookies.get('token');
 
-            var github = new Github({token: $oAuthToken,auth: "oauth"});
+            var github = new GitHub({token: $oAuthToken,auth: "oauth"});
             var repo = github.getRepo($org,$repo);
 
             $writepath = '_data/' + $resource + '.yaml';
