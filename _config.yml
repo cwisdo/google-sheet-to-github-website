@@ -7,8 +7,7 @@ highlighter: rouge
 # Site settings
 title: "Google Sheet To Github Link Website"
 description: > # this means to ignore newlines until "email:"
-   A Hack Education & API Evangelist Production
-
+   A Chris Wisdo experiement
 email: info@contrafabulists.com
 #blog logo
 logo: "/tech-predictions/assets/images/cog.jpg"
